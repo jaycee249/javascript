@@ -139,17 +139,58 @@ console.log(`Hello, ${myName}! You are ${myAge} years old.`);
 // console.log(addition);
 
 
-let myNum = 1;
+// let myNum = 1;
 // INCREMENT (NOTE)
 // myNum++;
 // DECREMENT (NOTE)
 // myNum--;
 // myNum = myNumb + 3; (WRONG) (reassigning variable)
 // (CORRECT) (maniplulating variable)
-myNum +=3;
-myNum -=10;
-myNum *=5;
-myNum /=12;
+// myNum +=3;
+// myNum -=10;
+// myNum *=5;
+// myNum /=12;
 
 
-console.log(myNum);
+// console.log(myNum);
+
+
+// DAY 3 TAKE HOME/ HOMEWORK!
+const userInput = prompt('Please enter a first name:');
+let color = prompt ('Which of these colors is your favorite?: Red, Orange, Yellow, Green, Blue, Pink, Purple, Black, White, Grey, None.');
+console.log(name, color);
+switch (color) {
+  case 0:
+    console.log('red')
+    break;
+  case 1:
+    console.log('orange')
+    break;
+  case 2:
+    console.log('yellow')
+    break;
+  case 3:
+    console.log('green')
+    break;
+  case 4:
+    console.log('blue')
+    break;
+  case 5:
+    console.log('pink');
+    break;
+  case 6:
+    console.log('purple')
+    break;
+  case 7:
+    console.log('black')
+    break;
+  case 8:
+    console.log('white')
+    break;
+  case 9:
+    console.log('grey')
+    break;
+  case 10:
+    console.log('none')
+    break;
+}
